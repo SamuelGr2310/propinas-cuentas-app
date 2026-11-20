@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1795191489070" clover="3.2.0">
+  <project timestamp="1795191489071" name="All files">
+    <metrics statements="17" coveredstatements="17" conditionals="11" coveredconditionals="11" methods="3" coveredmethods="3" elements="31" coveredelements="31" complexity="0" loc="17" ncloc="17" packages="1" files="1" classes="1"/>
+    <file name="tipCalculator.ts" path="/home/samuel/proyectos/propinas-cuentas-app/src/domain/tipCalculator.ts">
+      <metrics statements="17" coveredstatements="17" conditionals="11" coveredconditionals="11" methods="3" coveredmethods="3"/>
+      <line num="23" count="16" type="stmt"/>
+      <line num="26" count="2" type="stmt"/>
+      <line num="27" count="7" type="cond" truecount="3" falsecount="0"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="30" count="6" type="cond" truecount="3" falsecount="0"/>
+      <line num="31" count="1" type="stmt"/>
+      <line num="33" count="5" type="cond" truecount="3" falsecount="0"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="37" count="4" type="stmt"/>
+      <line num="38" count="4" type="stmt"/>
+      <line num="39" count="4" type="stmt"/>
+      <line num="40" count="4" type="stmt"/>
+      <line num="42" count="4" type="stmt"/>
+      <line num="50" count="2" type="stmt"/>
+      <line num="56" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="57" count="3" type="stmt"/>
+      <line num="59" count="3" type="stmt"/>
+    </file>
+  </project>
+</coverage>

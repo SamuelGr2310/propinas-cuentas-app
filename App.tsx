@@ -1,14 +1,17 @@
 import React from "react";
-import { SafeAreaView, StyleSheet } from "react-native";
+import { StyleSheet } from "react-native";
+import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { StatusBar } from "expo-status-bar";
 import { TipCalculatorScreen } from "./src/ui/TipCalculatorScreen";
 
 export default function App(): React.JSX.Element {
   return (
-    <SafeAreaView style={appStyles.safeArea}>
-      <StatusBar style="auto" />
-      <TipCalculatorScreen />
-    </SafeAreaView>
+    <SafeAreaProvider>
+      <SafeAreaView style={appStyles.safeArea}>
+        <StatusBar style="auto" />
+        <TipCalculatorScreen />
+      </SafeAreaView>
+    </SafeAreaProvider>
   );
 }
 

@@ -9,12 +9,7 @@
       "Read(**/*.jks)",
       "Edit(./.claude/**)"
     ],
-    "ask": [
-      "git push*",
-      "npm install*",
-      "eas*",
-      "vercel*"
-    ],
+    "ask": ["git push*", "npm install*", "eas*", "vercel*"],
     "blockReadsOutsideWorkingDirectories": true
   }
 }
