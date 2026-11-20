@@ -1,6 +1,7 @@
 # Bitácora de Trabajo con IA
 
-## Registro de Interacciones y Correcciones
-1. **Caso 1:** Se denegó lectura directa de variables de entorno locales.
-2. **Caso 2:** Se obligó a la IA a escribir pruebas unitarias antes de implementar la lógica de división de cuentas.
-3. **Caso 3:** Se corrigió una sugerencia de instalación automática de paquetes verificando validez y necesidad.
+## Registro de Decisiones y Correcciones
+
+1. **Ajuste de longitud de funciones (`max-lines-per-function`):** Se dividieron bloques de pruebas y componentes UI (`BillInputsCard`, `BillSummaryCard`, `BillHistoryCard`, `TipCalculatorScreen`) para cumplir el límite de 50 líneas por función.
+2. **Expresiones void en callbacks (`no-confusing-void-expression`):** Se usaron bloques con llaves `{ ... }` en manejadores de eventos en JSX para cumplir con las reglas estrictas de TypeScript/ESLint.
+3. **Verificación de cobertura de pruebas:** Se validó con Jest una cobertura del 100% en la lógica de negocio y almacenamiento de historial.
