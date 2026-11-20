@@ -1,0 +1,14 @@
+node_modules/
+.expo/
+dist/
+web-build/
+*.log
+
+# Entornos y secretos
+.env
+.env*.local
+*.pem
+*.key
+*firebase-adminsdk*.json
+*.keystore
+*.jks
